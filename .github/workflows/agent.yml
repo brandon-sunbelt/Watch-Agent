@@ -1,0 +1,46 @@
+name: watch-agent
+
+on:
+  schedule:
+    - cron: "0 12 * * *"      # daily ~07:00 America/Chicago (12:00 UTC)
+  workflow_dispatch:           # lets you run it on demand from the Actions tab
+
+permissions:
+  contents: write              # needed to commit state + dashboard back
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run the agent
+        env:
+          EBAY_CLIENT_ID:     ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+          REDDIT_CLIENT_ID:     ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          REDDIT_USER_AGENT:    "watch-agent/1.0 by personal"
+          GMAIL_ADDRESS:      ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          RECIPIENT_EMAIL:    ${{ secrets.RECIPIENT_EMAIL }}
+        run: python main.py
+
+      - name: Commit state + dashboard
+        run: |
+          git config user.name  "watch-agent"
+          git config user.email "actions@github.com"
+          git add state/ docs/
+          if git diff --staged --quiet; then
+            echo "nothing changed"
+          else
+            git commit -m "Daily sweep: $(date -u +%Y-%m-%d)"
+            git push
+          fi
