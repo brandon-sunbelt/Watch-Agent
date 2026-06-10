@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """Watch sourcing agent — single-file build.
 
-Everything lives in this one file on purpose: one file to upload, nothing
-to misplace. Run with:  python main.py
+Everything lives in this one file on purpose. Run with:  python main.py
 """
 
 
@@ -76,6 +75,7 @@ class Listing:
     deal_margin: Optional[float] = None
     flags: List[str] = field(default_factory=list)
     grail: bool = False
+    status: str = "available"      # available | sold | hold
 
     @property
     def uid(self) -> str:
@@ -418,12 +418,14 @@ def fetch_boutiques(boutiques):
                             price = float(variants[0].get("price"))
                         except (TypeError, ValueError):
                             price = None
+                    sold = bool(variants) and not any(v.get("available") for v in variants)
                     listings.append(Listing(
                         source=name,
                         title=p.get("title", ""),
                         url=purl,
                         price=price,
                         raw_text=f"{p.get('title','')} {(p.get('body_html') or '')[:400]}",
+                        status="sold" if sold else "available",
                     ))
                 continue  # got structured data; skip HTML fallback
         except Exception:
@@ -539,6 +541,13 @@ def apply_rules(listing, watch, cfg):
     maxp = watch.get("max_price_usd")
     if not listing.grail and maxp and listing.price and listing.price > maxp:
         listing.flags.append(f"over budget (> ${maxp:,.0f})")
+
+    # availability status (don't override a 'sold' already set from a Shopify feed)
+    if listing.status == "available":
+        if re.search(r"\bsold\b", text):
+            listing.status = "sold"
+        elif re.search(r"\b(on hold|reserved|holding)\b", text):
+            listing.status = "hold"
     return listing
 
 # ======================================================================
@@ -724,7 +733,55 @@ h1{font-family:"Fraunces","Spectral",serif;font-weight:600;font-size:34px;
   padding:60px 0;text-align:center}
 footer{margin-top:60px;font-family:"JetBrains Mono",monospace;font-size:11px;
   color:var(--faint);border-top:1px solid var(--line);padding-top:16px}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin:20px 0 0}
+.tab{font-family:"JetBrains Mono",monospace;font-size:11.5px;letter-spacing:.03em;
+  cursor:pointer;border:1px solid var(--line);background:transparent;color:var(--faint);
+  padding:6px 13px;border-radius:999px}
+.tab:hover{color:var(--ink);border-color:var(--ink)}
+.tab.active{background:var(--ink);color:var(--parchment);border-color:var(--ink)}
+.status{display:inline-block;font-family:"JetBrains Mono",monospace;font-size:9.5px;
+  letter-spacing:.1em;border-radius:3px;padding:1px 5px;margin-left:8px;vertical-align:1px;
+  color:var(--parchment)}
+.status.sold{background:var(--signal)} .status.hold{background:var(--brass)}
+.lot.is-sold .title{color:var(--faint);text-decoration:line-through}
+.section-head{font-family:"Fraunces","Spectral",serif;font-weight:600;font-size:21px;
+  margin:48px 0 2px;padding-bottom:6px;border-bottom:2px solid var(--signal)}
+.star{cursor:pointer;border:none;background:none;font-size:19px;line-height:1;
+  color:var(--brass);padding:0 0 4px;display:block;margin-left:auto}
+.star:hover{transform:scale(1.12)}
 @media (prefers-reduced-motion:no-preference){.lot{transition:none}}
+"""
+
+
+_DASH_JS = """
+const WL='watchagent.watchlist';
+function getWL(){try{return new Set(JSON.parse(localStorage.getItem(WL)||'[]'))}catch(e){return new Set()}}
+function saveWL(s){localStorage.setItem(WL,JSON.stringify([...s]))}
+function syncStars(){const s=getWL();document.querySelectorAll('.star').forEach(b=>{
+  const on=s.has(b.dataset.uid);b.textContent=on?'\\u2605':'\\u2606';b.classList.toggle('on',on);});}
+function toggleWatch(btn){const s=getWL();const id=btn.dataset.uid;
+  s.has(id)?s.delete(id):s.add(id);saveWL(s);syncStars();
+  const a=document.querySelector('.tab.active');if(a&&a.dataset.filter==='watchlist')applyFilter('watchlist');}
+function applyFilter(f){
+  const avail=document.getElementById('available'),sold=document.getElementById('soldhold'),
+        wlEmpty=document.getElementById('wl-empty');
+  avail.style.display='none';sold.style.display='none';wlEmpty.style.display='none';
+  document.querySelectorAll('.brand-block,.lot,.brand,.section-head').forEach(e=>e.style.display='');
+  if(f==='all'){avail.style.display='';}
+  else if(f==='sold'){sold.style.display='';}
+  else if(f.indexOf('brand:')===0){avail.style.display='';const br=f.slice(6);
+    document.querySelectorAll('.brand-block').forEach(b=>{b.style.display=(b.dataset.brand===br)?'':'none';});}
+  else if(f==='watchlist'){const s=getWL();let any=false;avail.style.display='';sold.style.display='';
+    document.querySelectorAll('.brand,.section-head').forEach(h=>h.style.display='none');
+    document.querySelectorAll('.lot').forEach(l=>{const show=s.has(l.dataset.uid);l.style.display=show?'':'none';if(show)any=true;});
+    document.querySelectorAll('.brand-block').forEach(b=>{
+      const vis=[...b.querySelectorAll('.lot')].some(l=>l.style.display!=='none');b.style.display=vis?'':'none';});
+    if(!any){avail.style.display='none';sold.style.display='none';wlEmpty.style.display='';}}
+}
+document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+  t.classList.add('active');applyFilter(t.dataset.filter);}));
+syncStars();
 """
 
 
@@ -741,8 +798,15 @@ def _gauge(listing):
 
 def _lot_html(l, cfg, is_new=False):
     label = _watch_label(cfg, l.watch_id)
+    brand = _watch_brand(cfg, l.watch_id)
+    status = getattr(l, "status", "available")
     dot = "grail" if l.grail else ("deal" if (l.deal_margin or 0) > 0.05 else "")
     badge = "<span class='new-badge'>NEW</span>" if is_new else ""
+    pill = ""
+    if status == "sold":
+        pill = "<span class='status sold'>SOLD</span>"
+    elif status == "hold":
+        pill = "<span class='status hold'>ON HOLD</span>"
     margin = ""
     if l.deal_margin is not None:
         cls = "up" if l.deal_margin > 0 else "down"
@@ -752,12 +816,16 @@ def _lot_html(l, cfg, is_new=False):
     if l.flags:
         hard = l.grail or any(k in f for f in l.flags for k in ("low", "polish", "redial"))
         flags = f"<div class='flags{'' if hard else ' soft'}'>⚑ {' · '.join(l.flags)}</div>"
+    sold_cls = " is-sold" if status == "sold" else ""
     return (
-        f"<div class='lot'><span class='dot {dot}'></span>"
+        f"<div class='lot{sold_cls}' data-brand='{brand}' data-uid='{l.uid}'>"
+        f"<span class='dot {dot}'></span>"
         f"<div><div class='label'>{label} · {l.source}</div>"
-        f"<a class='title' href='{l.url}' target='_blank' rel='noopener'>{l.title}</a>{badge}"
+        f"<a class='title' href='{l.url}' target='_blank' rel='noopener'>{l.title}</a>{pill}{badge}"
         f"{flags}</div>"
-        f"<div class='right'><div class='price'>{_money(l.price, l.currency)}</div>"
+        f"<div class='right'>"
+        f"<button class='star' data-uid='{l.uid}' onclick='toggleWatch(this)' title='Save to watchlist'>☆</button>"
+        f"<div class='price'>{_money(l.price, l.currency)}</div>"
         f"{margin}{_gauge(l)}</div></div>"
     )
 
@@ -767,31 +835,51 @@ def build_dashboard(fresh, all_matched, cfg, state, out_path="docs/index.html"):
     n_watch = len(cfg["watches"])
     fresh_uids = {l.uid for l in fresh}
 
-    # de-dup the current catalog by listing, then group by brand
     catalog = {}
     for l in all_matched:
         catalog.setdefault(l.uid, l)
-    groups = {}
-    for l in catalog.values():
-        groups.setdefault(_watch_brand(cfg, l.watch_id), []).append(l)
+    items = list(catalog.values())
+    available = [l for l in items if getattr(l, "status", "available") == "available"]
+    soldhold = [l for l in items if getattr(l, "status", "available") in ("sold", "hold")]
 
-    body = []
+    # group available by brand, most-listed brand first
+    groups = {}
+    for l in available:
+        groups.setdefault(_watch_brand(cfg, l.watch_id), []).append(l)
+    brand_order = [b for b, _ in sorted(groups.items(), key=lambda kv: (-len(kv[1]), kv[0]))]
+
+    # tabs
+    tabs = ["<button class='tab active' data-filter='all'>All</button>"]
+    for b in brand_order:
+        tabs.append(f"<button class='tab' data-filter='brand:{b}'>{b}</button>")
+    tabs.append("<button class='tab' data-filter='watchlist'>★ Watchlist</button>")
+    if soldhold:
+        tabs.append("<button class='tab' data-filter='sold'>Sold / Hold</button>")
+
+    # available area (brand sections, priced low to high)
+    avail = []
     if groups:
-        # brands with the most listings first
-        for brand, items in sorted(groups.items(), key=lambda kv: (-len(kv[1]), kv[0])):
-            # within a brand: cheapest first, unpriced (e.g. grails) last
-            items.sort(key=lambda l: (l.price is None, l.price or 0))
-            n_new = sum(1 for l in items if l.uid in fresh_uids)
-            count = f"{len(items)} listing{'s' if len(items) != 1 else ''}"
+        for b in brand_order:
+            lst = sorted(groups[b], key=lambda l: (l.price is None, l.price or 0))
+            n_new = sum(1 for l in lst if l.uid in fresh_uids)
+            count = f"{len(lst)} listing{'s' if len(lst) != 1 else ''}"
             if n_new:
                 count += f" · {n_new} new"
-            body.append(f"<div class='brand'><h2>{brand}</h2>"
-                        f"<span class='count'>{count}</span></div>")
-            for l in items:
-                body.append(_lot_html(l, cfg, is_new=l.uid in fresh_uids))
+            avail.append(f"<div class='brand-block' data-brand='{b}'>"
+                         f"<div class='brand'><h2>{b}</h2><span class='count'>{count}</span></div>")
+            for l in lst:
+                avail.append(_lot_html(l, cfg, is_new=l.uid in fresh_uids))
+            avail.append("</div>")
     else:
-        body.append("<div class='empty'>Catalog's empty for now.<br>"
-                     "The net's still out.</div>")
+        avail.append("<div class='empty'>Catalog's empty for now.<br>The net's still out.</div>")
+
+    # sold / on-hold area (separate section, hidden until its tab is chosen)
+    sold = []
+    if soldhold:
+        sold.append("<div class='section-head'>Sold &amp; on hold</div>")
+        for l in sorted(soldhold, key=lambda l: (_watch_brand(cfg, l.watch_id),
+                                                 l.price is None, l.price or 0)):
+            sold.append(_lot_html(l, cfg, is_new=l.uid in fresh_uids))
 
     html = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -803,13 +891,18 @@ def build_dashboard(fresh, all_matched, cfg, state, out_path="docs/index.html"):
 <header><h1>The Catalog</h1>
 <div class="meta"><span>Run <b>{ts}</b></span>
 <span>Watching <b>{n_watch}</b> references</span>
-<span>In catalog <b>{len(catalog)}</b></span>
-<span>New today <b>{len(fresh)}</b></span></div></header>
-{''.join(body)}
-<footer>Personal sourcing agent · grouped by brand, priced low to high · grail references
-alert on any appearance and are not deal-scored · prices are listed asks, fair value is a
-self-built comparables median.</footer>
-</div></body></html>"""
+<span>Available <b>{len(available)}</b></span>
+<span>New today <b>{len(fresh)}</b></span></div>
+<nav class="tabs">{''.join(tabs)}</nav></header>
+<div id="available">{''.join(avail)}</div>
+<div id="soldhold" style="display:none">{''.join(sold)}</div>
+<div id="wl-empty" class="empty" style="display:none">Nothing saved yet.<br>Tap a ☆ on any listing to start your watchlist.</div>
+<footer>Personal sourcing agent · grouped by brand, priced low to high · sold &amp; held items
+moved to their own tab · grail references alert on any appearance and aren't deal-scored ·
+prices are listed asks, fair value is a self-built comparables median.</footer>
+</div>
+<script>{_DASH_JS}</script>
+</body></html>"""
     os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(html)
