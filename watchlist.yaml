@@ -24,7 +24,7 @@ condition_rules:
 # ---- Sources (the free stack) ----
 sources:
   ebay:       { enabled: true, method: api }
-  reddit:     { enabled: true, method: api, subreddits: [Watchexchange] }
+  reddit:     { enabled: false, method: api, subreddits: [Watchexchange] }
   chrono24:   { enabled: true, method: alert_email }   # free saved-search alerts
   watchrecon: { enabled: true, method: aggregator }
   boutiques:                                           # daily diff + newsletter
