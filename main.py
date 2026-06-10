@@ -618,6 +618,13 @@ def _watch_label(cfg, watch_id):
     return watch_id
 
 
+def _watch_brand(cfg, watch_id):
+    for w in cfg["watches"]:
+        if w["id"] == watch_id:
+            return w.get("brand", "Other")
+    return "Other"
+
+
 # --------------------------------------------------------------------------- #
 # Email (inline styles — email clients strip <style> blocks)
 # --------------------------------------------------------------------------- #
@@ -685,6 +692,14 @@ h1{font-family:"Fraunces","Spectral",serif;font-weight:600;font-size:34px;
 .meta b{color:var(--ink);font-weight:500}
 .section{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.18em;
   text-transform:uppercase;color:var(--faint);margin:38px 0 6px}
+.brand{display:flex;align-items:baseline;justify-content:space-between;
+  margin:44px 0 2px;padding-bottom:6px;border-bottom:2px solid var(--ink)}
+.brand h2{font-family:"Fraunces","Spectral",serif;font-weight:600;font-size:23px;
+  margin:0;letter-spacing:-.01em}
+.brand .count{font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--faint)}
+.new-badge{display:inline-block;font-family:"JetBrains Mono",monospace;font-size:9.5px;
+  letter-spacing:.1em;color:var(--parchment);background:var(--verdigris);
+  border-radius:3px;padding:1px 5px;margin-left:8px;vertical-align:1px}
 .lot{display:grid;grid-template-columns:14px 1fr auto;gap:16px;align-items:start;
   padding:18px 0;border-top:1px solid var(--line)}
 .dot{width:9px;height:9px;border-radius:50%;margin-top:8px;background:var(--brass)}
@@ -724,9 +739,10 @@ def _gauge(listing):
     return ""
 
 
-def _lot_html(l, cfg):
+def _lot_html(l, cfg, is_new=False):
     label = _watch_label(cfg, l.watch_id)
     dot = "grail" if l.grail else ("deal" if (l.deal_margin or 0) > 0.05 else "")
+    badge = "<span class='new-badge'>NEW</span>" if is_new else ""
     margin = ""
     if l.deal_margin is not None:
         cls = "up" if l.deal_margin > 0 else "down"
@@ -739,7 +755,7 @@ def _lot_html(l, cfg):
     return (
         f"<div class='lot'><span class='dot {dot}'></span>"
         f"<div><div class='label'>{label} · {l.source}</div>"
-        f"<a class='title' href='{l.url}' target='_blank' rel='noopener'>{l.title}</a>"
+        f"<a class='title' href='{l.url}' target='_blank' rel='noopener'>{l.title}</a>{badge}"
         f"{flags}</div>"
         f"<div class='right'><div class='price'>{_money(l.price, l.currency)}</div>"
         f"{margin}{_gauge(l)}</div></div>"
@@ -749,14 +765,34 @@ def _lot_html(l, cfg):
 def build_dashboard(fresh, all_matched, cfg, state, out_path="docs/index.html"):
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     n_watch = len(cfg["watches"])
+    fresh_uids = {l.uid for l in fresh}
+
+    # de-dup the current catalog by listing, then group by brand
+    catalog = {}
+    for l in all_matched:
+        catalog.setdefault(l.uid, l)
+    groups = {}
+    for l in catalog.values():
+        groups.setdefault(_watch_brand(cfg, l.watch_id), []).append(l)
+
     body = []
-    body.append("<div class='section'>New today</div>")
-    if fresh:
-        for l in rank(fresh):
-            body.append(_lot_html(l, cfg))
+    if groups:
+        # brands with the most listings first
+        for brand, items in sorted(groups.items(), key=lambda kv: (-len(kv[1]), kv[0])):
+            # within a brand: cheapest first, unpriced (e.g. grails) last
+            items.sort(key=lambda l: (l.price is None, l.price or 0))
+            n_new = sum(1 for l in items if l.uid in fresh_uids)
+            count = f"{len(items)} listing{'s' if len(items) != 1 else ''}"
+            if n_new:
+                count += f" · {n_new} new"
+            body.append(f"<div class='brand'><h2>{brand}</h2>"
+                        f"<span class='count'>{count}</span></div>")
+            for l in items:
+                body.append(_lot_html(l, cfg, is_new=l.uid in fresh_uids))
     else:
-        body.append("<div class='empty'>No new matches today.<br>"
+        body.append("<div class='empty'>Catalog's empty for now.<br>"
                      "The net's still out.</div>")
+
     html = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Watch Catalog</title>
@@ -767,10 +803,12 @@ def build_dashboard(fresh, all_matched, cfg, state, out_path="docs/index.html"):
 <header><h1>The Catalog</h1>
 <div class="meta"><span>Run <b>{ts}</b></span>
 <span>Watching <b>{n_watch}</b> references</span>
+<span>In catalog <b>{len(catalog)}</b></span>
 <span>New today <b>{len(fresh)}</b></span></div></header>
 {''.join(body)}
-<footer>Personal sourcing agent · grail references alert on any appearance and are
-not deal-scored · prices are listed asks, fair value is a self-built comparables median.</footer>
+<footer>Personal sourcing agent · grouped by brand, priced low to high · grail references
+alert on any appearance and are not deal-scored · prices are listed asks, fair value is a
+self-built comparables median.</footer>
 </div></body></html>"""
     os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)
     with open(out_path, "w", encoding="utf-8") as f:
@@ -846,7 +884,8 @@ def run():
         fresh.append(l)
     print(f"[run] {len(fresh)} are new today")
 
-    for l in fresh:
+    # score the whole current catalog so every brand section shows margins
+    for l in matched:
         score_listing(l, state, matched)
 
     record_prices(state, matched)
