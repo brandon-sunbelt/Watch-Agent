@@ -1,0 +1,267 @@
+# ============================================================
+#  Vintage Watch Sourcing Agent — Watchlist Config
+#  Status: WORKING DRAFT
+#    - Search this file for "CONFIRM" or "SET" for open items.
+#    - Brands now span Rolex, Patek, Vacheron Constantin, Omega.
+#    - Several pieces are GRAIL-tier (auction-only) — see notes.
+# ============================================================
+
+settings:
+  owner_timezone: America/Chicago      # Baton Rouge / Central
+  run_schedule: "0 12 * * *"           # daily ~07:00 CT (cron is in UTC)
+  delivery:
+    email_digest: true
+    dashboard: true                    # GitHub Pages, refreshed each run
+  quiet_days_ok: true                  # never pad the digest with weak matches
+
+# ---- Condition bar (applies to EVERY watch) ----
+condition_rules:
+  minimum_condition: above_average     # above_average | excellent
+  unpolished: strongly_preferred       # flag / down-rank anything polished or refinished
+  service_dials: acceptable
+  box_and_papers: bonus                # never a dealbreaker
+
+# ---- Sources (the free stack) ----
+sources:
+  ebay:       { enabled: true, method: api }
+  reddit:     { enabled: true, method: api, subreddits: [Watchexchange] }
+  chrono24:   { enabled: true, method: alert_email }   # free saved-search alerts
+  watchrecon: { enabled: true, method: aggregator }
+  boutiques:                                           # daily diff + newsletter
+    - { name: "Oldtimer",            url: "https://oldtimer.watch" }
+    - { name: "Wind Vintage",        url: "https://www.windvintage.com" }
+    - { name: "Danny's Vintage",     url: "https://dannysvintagewatches.com" }
+    - { name: "HQ Milton",           url: "https://hqmilton.com" }
+    - { name: "Analog/Shift",        url: "https://analogshift.com" }
+    - { name: "Craft + Tailored",    url: "https://craftandtailored.com" }
+    - { name: "Menta Watches",       url: "https://mentawatches.com" }
+    - { name: "Matthew Bain",        url: "https://matthewbaininc.com" }
+    - { name: "Tropical Watch",      url: "https://tropicalwatch.com" }
+    - { name: "Wanna Buy A Watch?",  url: "https://wannabuyawatch.com" }
+    - { name: "Fog City Vintage",    url: "https://fogcityvintage.com" }
+    - { name: "A Collected Man",     url: "https://www.acollectedman.com" }
+    - { name: "22Pcs",               url: "" }          # CONFIRM url
+  auction_houses:                                      # for GRAIL-tier pieces
+    enabled: true
+    method: catalog_monitor                            # watch upcoming-lot listings
+    houses: [Phillips, Christie's, Sotheby's, Bonhams, "Monaco Legend Group", Antiquorum]
+
+# ---- Budget tiers ----
+tiers:
+  1: { label: "Steel & 14k everyday",  band_usd: [3000, 8000] }
+  2: { label: "Two-tone & dress gold", band_usd: [2500, 6000] }
+  3: { label: "Solid-gold flagship",   band_usd: [9000, 18000] }
+  4: { label: "Grail (auction-only)",  band_usd: null }       # set per-watch
+
+# ---- The watchlist ----
+watches:
+
+  # ===== Tier 1–3 : the daily-net pieces =====
+
+  - id: op-1002
+    brand: Rolex
+    model: Oyster Perpetual
+    ref: "1002"
+    tier: 1
+    max_price_usd: 5500
+    specs: { size_mm: 34, movement: automatic, era: 1960s, metal: steel }
+    dial: any                          # CONFIRM preferred dial color
+    notes: 'listing code "RA461B" — CONFIRM what this refers to'
+
+  - id: dj-16030
+    brand: Rolex
+    model: Datejust
+    ref: "16030"
+    tier: 1
+    max_price_usd: 8000
+    specs: { size_mm: 36, metal: steel, year: 1979 }
+    dial: any                          # CONFIRM — oldtimer.watch listing wouldn't load
+    reference_listing: "https://oldtimer.watch/products/1979-rolex-datejust-16030"
+
+  - id: precision-6427
+    brand: Rolex
+    model: Oyster Precision
+    ref: "6427"
+    tier: 1
+    max_price_usd: 10000               # special-dial premium
+    specs: { size_mm: 34, movement: manual, metal: steel }
+    dial: "blue soleil / sunburst, rose markers — preferred"   # CONFIRM strictness
+    match: prefer_dial_then_surface_others
+    reference_listing: "https://www.windvintage.com/rolex-oyster-precision-reference-6427-as-new"  # SOLD — type spec
+
+  - id: date-1503
+    brand: Rolex
+    model: Oyster Perpetual Date
+    ref: "1503"
+    tier: 1
+    max_price_usd: 5000
+    specs: { size_mm: 34, metal: 14k gold }
+    dial: any                          # CONFIRM
+
+  - id: dj-1600-taupe
+    brand: Rolex
+    model: Datejust
+    ref: "1600"
+    tier: 1
+    max_price_usd: 10000               # special-dial premium
+    specs: { size_mm: 36, metal: steel, bezel: smooth }
+    dial: "taupe (special)"
+
+  - id: dj-1603-blue
+    brand: Rolex
+    model: Datejust
+    ref: "1603"
+    tier: 1
+    max_price_usd: 10000               # special-dial premium
+    specs: { size_mm: 36, metal: steel, bezel: engine-turned, year: 1975 }
+    dial: "royal blue sunburst"
+
+  - id: dj-1601-tt-linen
+    brand: Rolex
+    model: Datejust (two-tone)
+    ref: "1601"
+    tier: 2
+    max_price_usd: 6000
+    specs: { size_mm: 36, metal: "steel / yellow gold", bezel: fluted }
+    dial: "linen (silver or champagne)"   # CONFIRM color
+
+  - id: dj-1601-silver-black
+    brand: Rolex
+    model: Datejust
+    ref: "1601"
+    tier: 1
+    max_price_usd: 8000
+    specs: { size_mm: 36, metal: steel, bezel: fluted }
+    dial: "silver or black"
+    notes: "second 1601 — distinct from the two-tone linen entry above"
+
+  - id: cellini-rect
+    brand: Rolex
+    model: Cellini
+    ref: TBD                           # CONFIRM reference
+    tier: 2
+    max_price_usd: 6000
+    specs: { case: rectangular, metal: gold, era: "~1991" }
+    notes: "kept as its own watch — the 4113 grail below is SEPARATE (not actually a Cellini)"
+
+  - id: patek-2457-rg
+    brand: Patek Philippe
+    model: Calatrava
+    ref: "2457"
+    tier: 3
+    max_price_usd: 18000
+    specs: { case: round, size_mm: "31-36", movement: "manual cal. 27SC", metal: "18k rose gold", era: "1949-1958" }
+    dial: any                          # CONFIRM (silvered; Breguet-numeral versions most desirable)
+
+  - id: rolex-1908-modern
+    brand: Rolex
+    model: Perpetual 1908
+    ref: "52508 / 52509"
+    tier: 3
+    max_price_usd: 17000
+    specs: { size_mm: 39, movement: automatic, metal: "gold / platinum", era: "2023-present" }
+    modern: true                       # CURRENT production — AD waitlist or secondary, NOT the vintage net
+    notes: "CONFIRM this is the modern 1908 (no vintage ref exists)"
+
+  - id: omega-seamaster-deville-linen
+    brand: Omega
+    model: Seamaster De Ville
+    ref: TBD
+    tier: 1
+    max_price_usd: 2500
+    specs: { movement: automatic, era: 1960s }
+    dial: "linen"                      # CONFIRM color / metal
+
+  - id: rolex-1500-tropical
+    brand: Rolex
+    model: Oyster Perpetual Date
+    ref: "1500"
+    tier: 1
+    max_price_usd: 8000
+    specs: { size_mm: 34, movement: automatic, metal: steel }
+    dial: "tropical (faded) black"
+    authenticity: high_scrutiny        # genuine tropical patina vs damage/fakes — verify
+
+  - id: rolex-ladies-cocktail
+    brand: Rolex
+    model: Ladies cocktail (solid gold)
+    ref: none                          # "1942" was the YEAR, not a reference; vintage cocktail watches often have none
+    tier: 2
+    max_price_usd: 4000
+    specs: { gender: ladies, metal: solid gold, era: "~1942" }
+    match: attribute_based             # brand + ladies + solid gold + 1940s cocktail/dress
+    reference_video: "https://www.instagram.com/reel/DXRULLjhPZl/"
+    notes: "DESCRIBE to sharpen matching: dial color, metal (yellow/rose), case size, bracelet/strap"
+
+  # ===== Tier 4 : GRAILS — auction-only, maximum due diligence =====
+  # The free daily net will almost never surface these. The agent's job
+  # here is to monitor auction-house catalogs and flag any appearance.
+  # "Deal-priced" examples of these references are red flags, not bargains.
+
+  - id: vc-jumphour
+    brand: Vacheron Constantin
+    model: Jump Hour
+    ref: any
+    tier: 3
+    max_price_usd: null                # SET a ceiling — vintage and modern values differ widely
+    specs: { complication: "jumping hour", metal: gold, era: "vintage + modern (both wanted)" }
+
+  - id: rolex-6238-predaytona
+    brand: Rolex
+    model: Chronograph (pre-Daytona)
+    ref: "6238"
+    tier: 4
+    max_price_usd: null                # SET — typically high-5 to 6 figures
+    specs: { size_mm: 36, movement: "manual chronograph", era: "1963-1967" }
+    sourcing_override: [auction_houses, top_specialists]
+    authenticity: high_scrutiny
+
+  - id: vc-cioccolatone-4764
+    brand: Vacheron Constantin
+    model: '"Cioccolatone"'
+    ref: "4764"
+    tier: 4
+    max_price_usd: null                # SET — typically high-5 to 6 figures
+    specs: { case: "cushion / tonneau", metal: gold, era: 1950s }
+    sourcing_override: [auction_houses, top_specialists]
+    authenticity: high_scrutiny
+
+  - id: killy-6036
+    brand: Rolex
+    model: 'Dato-Compax "Killy"'
+    ref: "6036"
+    tier: 4
+    max_price_usd: null                # SET — six figures, condition-dependent
+    specs: { metal: "18k yellow gold", complication: "triple calendar chronograph", era: 1950s }
+    sourcing_override: [auction_houses, top_specialists]
+    authenticity: maximum_scrutiny     # heavily faked/redialed
+
+  - id: rolex-4113-splitseconds
+    brand: Rolex
+    model: Split-Seconds Chronograph
+    ref: "4113"
+    tier: 4
+    max_price_usd: null                # ~$2.4M-$4.7M at auction
+    specs: { size_mm: "44 (jumbo)", movement: "manual, Valjoux 55 VBR rattrapante", era: 1942 }
+    sourcing_override: [auction_houses_only]
+    authenticity: maximum_scrutiny
+    notes: "KEEP BOTH (confirmed) — the 4113 split-seconds AND the ~1991 Cellini are both targets. ~$2.4M-$4.7M at auction."
+
+  - id: rolex-6062-steel
+    brand: Rolex
+    model: Triple Calendar Moonphase (Stelline)
+    ref: "6062"
+    tier: 4
+    max_price_usd: null                # multi-million for steel
+    specs: { movement: "automatic, triple calendar + moonphase", metal: "stainless steel preferred; gold acceptable", era: 1950s }
+    sourcing_override: [auction_houses_only]
+    authenticity: maximum_scrutiny
+    notes: "steel preferred (among the rarest Rolexes ever); gold accepted as the findable alternative"
+
+# ---- How matches are scored & ranked ----
+scoring:
+  fair_value: median_of_live_comparables    # self-built (no paid data on free tier)
+  flag_deal_if: "price <= max_price_usd AND condition >= minimum_condition"
+  rank_by: [deal_margin, condition, originality]
+  authenticity_flags: [price_too_low, mismatched_reference, redial_signs, seller_risk]
+  grail_rule: "for tier-4 refs, suppress 'deal' scoring; alert on ANY appearance + force authenticity review"
