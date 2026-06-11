@@ -8,7 +8,7 @@
 
 settings:
   owner_timezone: America/Chicago      # Baton Rouge / Central
-  run_schedule: "0 12 * * *"           # daily ~07:00 CT (cron is in UTC)
+  run_schedule: "0 */6 * * *"           # daily ~07:00 CT (cron is in UTC)
   delivery:
     email_digest: true
     dashboard: true                    # GitHub Pages, refreshed each run
