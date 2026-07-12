@@ -1,653 +1,293 @@
 {
   "seen": [
-    "ffede21da52fe035",
-    "ed29d355ebc82e04",
-    "244bcdea956832ee",
-    "78c998f3a50b495a",
-    "38f5a0adf567e508",
-    "761d7e8814e95c07",
-    "25d191a58d605f9a",
-    "fb682ef1f2ecb3e6",
-    "e80ba0c015d2141b",
-    "f8ece6251f3dd0ee",
-    "58426d518f849d01",
-    "6328d73f63e33ccb",
-    "5dea5fdcaa5103fa",
-    "21f87bb33e3a88be",
-    "ccb48ac397883994",
-    "31020f7f531219e5",
-    "2ac4aaf58e183260",
-    "89bdd3a8d00bf9dd",
-    "fffd4c5413ad75f2",
+    "2124e8f5f2162114",
+    "ad5550877e7eae6e",
+    "be7fdf297233d6dd",
+    "ce06ef6e5bf6949d",
+    "b81337a6a4bf223c",
     "5f42cbf529ba57cf",
-    "b108dab191fed9ca",
-    "f63007e9aeb26947",
-    "10712fafe5d13c1f",
-    "244cbd5397cd4e62",
-    "555bc54637e31a2f",
-    "8d2247e955c9f023",
-    "af2a7632d842945f",
-    "a74789f66b0b2a36",
-    "58f60fc80d24d7da",
-    "8d0b576230ee07ef",
-    "d62879ab84114c8f",
-    "f3d294ffd4ae7da4",
-    "20f7fd06373b4fd4",
-    "ca2f1b8712e3cbc1",
-    "07abb9bbbefebf85",
-    "6c861f0ef7603f33",
-    "915283b3b647308e",
-    "4171c3eafc37d380",
-    "6a4623def0a6be70",
-    "2155842a97bbd2ce",
-    "adcf87852f4512de",
-    "b9253045c1e0a7a1",
-    "a3bbfa9654054aac",
-    "766b97158d57fbbf",
-    "ab5935cab99f6807",
-    "5cc6155dc80f64a4",
-    "36635f3bf738c0be",
-    "f3325b5bed4f5738",
-    "cc49d13223e54957",
-    "3e40effb56ff51ed",
-    "e4377af095ac8595",
-    "02c8ce5e44658fe6",
-    "c17a9724909b1202",
-    "963cc03b25cbd131",
-    "3772b92aad6749d1",
-    "56bae7eb91fb8a1e",
-    "da69138065244ccc",
-    "433165d80a49799d",
-    "1ac78770ba3b1bf1",
-    "c9a3c637fbfbd6d8",
+    "1149a50a2628ed6d",
+    "a207357ed6bd28ce",
+    "9fb2f907c1a65d65",
+    "13a7634075fedbdd",
+    "a4bd8e9e9eb7b7e6",
     "c68959a076170f6b",
+    "da69138065244ccc",
+    "9e40c901f8ccd2c6",
+    "a99a4191ce95c9a3",
+    "2155842a97bbd2ce",
+    "0f55a956d69100d1",
+    "e5ada2a47b84be2d",
+    "37783ecfd9a3d6be",
+    "66ae6157e449dd0a",
+    "10712fafe5d13c1f",
+    "329e98f2a1c2eaad",
+    "ab5935cab99f6807",
+    "94d74a96a7b66c5e",
     "ce476ffb1d6db82d",
-    "48ea4977c1ce11bf",
-    "2c96e4922a92bfd9",
-    "1b5f95ace556f058",
+    "7dbb98d88ac61462",
+    "556d1a2022f73260",
+    "3772b92aad6749d1",
+    "b22885835b5ad1ad",
+    "5651010e3534f672",
+    "35690f6dd935ae8c",
+    "7c86034c742d671f",
+    "d7c5908b64df24cc",
+    "497b34037a877b8a",
+    "68d7c7a57cbdb6c9",
+    "8d2247e955c9f023",
+    "c1924fba55e80e99",
+    "211b6d7c62e0a76c",
+    "af2a7632d842945f",
+    "f6f366bb93625d9f",
+    "224e9c930de53ad7",
+    "83bc28607498a8e0",
+    "ca2f1b8712e3cbc1",
+    "5dea5fdcaa5103fa",
+    "4f88b39c05448f10",
+    "f99300cb9734337a",
+    "68b82367c551fc59",
     "dac3268567c23fef",
+    "65b5f3fd3e903660",
+    "69e0b132ef83066d",
+    "d9d3a21ac4e590d2",
+    "63bb45668cb8149e",
+    "1920c699c010429d",
+    "440261b314123940",
+    "31412ef0c7b49a78",
+    "68c62b2730573bcf",
+    "78c998f3a50b495a",
+    "1108a49aa689082f",
+    "ad695e9204054150",
+    "6a4623def0a6be70",
+    "9d460881ade28db2",
+    "3d69cd7f2e65e6f6",
+    "241b49bb0f6d956b",
+    "4694a6ac147a6474",
+    "0181f906b00bebba",
+    "56bae7eb91fb8a1e",
+    "e7bdcbe813d114e7",
+    "68a511e5eb424c9a",
+    "a7d53eade3b319f6",
+    "93ad099eeccfdd7f",
+    "21f87bb33e3a88be",
+    "d1180195a027c898",
+    "ad52e91e7464a130",
+    "52246875e46fa796",
+    "6328d73f63e33ccb",
+    "690f68c16ecc4a84",
+    "29257665e4ca05d9",
+    "a939e465017dae3a",
+    "b9253045c1e0a7a1",
+    "6d3bd1b0562a49d4",
+    "b108dab191fed9ca",
+    "f93a74ee4db2c33a",
+    "f3d294ffd4ae7da4",
+    "244cbd5397cd4e62",
+    "36225c4ba0637743",
+    "bec2bf23e1942d68",
+    "bb524eb14067fea8",
+    "31207eec8d769c18",
+    "58f60fc80d24d7da",
+    "2b862bad54d11c8b",
+    "a113e7210e1dcf5b",
+    "7f70e382d9253885",
+    "4171c3eafc37d380",
+    "4725bb2bfd2619bf",
+    "36635f3bf738c0be",
+    "2d8134992875b71c",
+    "07c7b58f6595cde4",
+    "636cfb4ef6ca7e6d",
+    "103cee7f86574130",
+    "c0cdc2fc51c74bdc",
+    "02c8ce5e44658fe6",
+    "5ea974bdf384d86c",
+    "7e65419101e6bf67",
+    "fc42e49f0afc0b3c",
+    "38f5a0adf567e508",
+    "4044a48c09aab248",
     "10fb06d3ec8b1f06",
-    "01b457835e8674f5",
-    "bd362ada45065046",
-    "c06945e5333e77d8",
+    "0793fde3f18686b5",
+    "633ed1ef5dfb7193",
+    "939e763f858777e9",
+    "915283b3b647308e",
+    "a74789f66b0b2a36",
+    "c17a9724909b1202",
+    "3bbdd18b42ce9dfd",
+    "8dfc85278ae1b326",
+    "bfe3c79820243433",
+    "e80ba0c015d2141b",
+    "7c9e0be8a42e9f30",
+    "facace5ca605f36e",
+    "fb8562c8872d4db6",
+    "64d69adc3e03ff00",
+    "fd9058c4d7d9874e",
+    "89bdd3a8d00bf9dd",
+    "210df86b6ffe8081",
+    "2f05185541f0dd9b",
+    "4b13243f51181e0b",
+    "443f2a19e4f4855d",
     "7b062c95ba334a03",
+    "7a41df7ff0510eae",
+    "476ebae90c9fa601",
+    "25d191a58d605f9a",
+    "11e0938fb9bbdd94",
+    "433165d80a49799d",
+    "fb682ef1f2ecb3e6",
+    "f1bd0bfff7717dcc",
+    "6dcaac50d089ee66",
+    "e4377af095ac8595",
+    "289517d3bd4fd069",
+    "dc2688051cfbfc4c",
+    "db8c1152d08a12a2",
+    "a3bbfa9654054aac",
+    "48e65e9d1e949570",
+    "9c9eb1c303c2b7fd",
+    "4713b10e2b3dc96a",
+    "0e6a9df919939af0",
+    "46e0c03e94a0fc74",
+    "4e427f1641529fb4",
+    "b7ff55c2fe1d6b57",
+    "86b94ae09d931d5c",
+    "8da2276c3398cbab",
+    "76b60a9906aa0ed1",
+    "6da854ca6edae65f",
+    "afc8206d6b7d4ff0",
+    "2ac4aaf58e183260",
+    "f76e706301086f0c",
+    "091f2277a9110797",
+    "95ae7699fa62f8be",
+    "1ac78770ba3b1bf1",
+    "8bdbaaa67979e828",
+    "c06945e5333e77d8",
+    "194353e48bc26aef",
+    "a5c98373fd48555f",
+    "a57bd5dd474c0d6e",
+    "a10c5358536f40ee",
+    "761d7e8814e95c07",
+    "18f22785a5e0d216",
+    "0c2a8fb600b22ed2",
+    "58426d518f849d01",
+    "07abb9bbbefebf85",
+    "079dca0344338b97",
+    "c462483b1e926cfe",
+    "f1b5eded0be5c81d",
+    "6936dd5f064690e4",
+    "64efbd3eecb55d92",
+    "f8f855453b2d492b",
+    "bafe4c34b562250a",
+    "f8ece6251f3dd0ee",
+    "0c215d14b5a4d973",
+    "dbc56cfd6da6331b",
+    "3b9870865aff3f23",
+    "36c4c0d4d23fc83f",
+    "e5c2be9a89f09a30",
+    "e5c468577d752b51",
+    "03b50a19b11a0e9f",
+    "fb3bfebdc9215416",
+    "2030a2d35a992c8e",
+    "cc49d13223e54957",
+    "d7800bae17af2796",
+    "699003bedea11b78",
+    "1b5f95ace556f058",
+    "4b789356149ab921",
+    "3e40effb56ff51ed",
+    "d62879ab84114c8f",
+    "2c96e4922a92bfd9",
     "bfcc2cc1a626bbd0",
     "6400e5b8ed085375",
-    "906b97e256daf397",
-    "4694a6ac147a6474",
-    "440261b314123940",
-    "f1b5eded0be5c81d",
-    "05e2df52946af88b",
-    "ccb143036847162a",
-    "0793fde3f18686b5",
-    "5d13f3ad896d47a3",
-    "e7bdcbe813d114e7",
-    "13928de1af0e1d7a",
-    "211b6d7c62e0a76c",
-    "337cfcc219b4fd0e",
-    "68c62b2730573bcf",
-    "690f68c16ecc4a84",
-    "414f6e4fd3be206d",
-    "95ae7699fa62f8be",
-    "9e40c901f8ccd2c6",
-    "d1180195a027c898",
-    "1149a50a2628ed6d",
-    "2b4201de6e243574",
-    "b6002cc8256c5521",
-    "939e763f858777e9",
-    "bb6b5f41024eb9e1",
-    "f76e706301086f0c",
-    "c5d0dad370474d9a",
-    "32702ea5b67d1cc0",
-    "636cfb4ef6ca7e6d",
-    "0c215d14b5a4d973",
-    "83bc28607498a8e0",
-    "2d38feee2ebec4b8",
-    "6da854ca6edae65f",
-    "476ebae90c9fa601",
-    "46e0c03e94a0fc74",
-    "b6890cca3a3b8bd3",
-    "8da2276c3398cbab",
-    "be7fdf297233d6dd",
-    "4044a48c09aab248",
-    "36225c4ba0637743",
-    "f99300cb9734337a",
-    "31412ef0c7b49a78",
-    "48e65e9d1e949570",
-    "03b4510922efca20",
-    "afc8206d6b7d4ff0",
-    "3bbdd18b42ce9dfd",
-    "a207357ed6bd28ce",
-    "e6e3b4b706789084",
-    "0c2a8fb600b22ed2",
-    "68a511e5eb424c9a",
-    "7c9e0be8a42e9f30",
-    "4b13243f51181e0b",
-    "0181f906b00bebba",
-    "5ea974bdf384d86c",
-    "ad695e9204054150",
-    "6dcaac50d089ee66",
-    "4e427f1641529fb4",
-    "2030a2d35a992c8e",
-    "03b50a19b11a0e9f",
-    "d7800bae17af2796",
-    "13a7634075fedbdd",
-    "5016067119a59f01",
-    "a5c98373fd48555f",
-    "e3b7f470eb123db0",
-    "b22885835b5ad1ad",
-    "ce06ef6e5bf6949d",
-    "b7ff55c2fe1d6b57",
-    "dd91e6774ee3b065",
-    "a83544541c03ad43",
-    "68b82367c551fc59",
-    "75be98ac8817a0c7",
-    "3436d900b4ed47e4",
-    "d28718d2f5819b55",
-    "0b1d6f72ba649b11",
-    "68d7c7a57cbdb6c9",
-    "060ab82be076aea9",
-    "633ed1ef5dfb7193",
-    "a10c5358536f40ee",
-    "4f88b39c05448f10",
-    "facace5ca605f36e",
-    "4713b10e2b3dc96a",
-    "4fd987f74729c644",
-    "a4bd8e9e9eb7b7e6",
-    "fb8562c8872d4db6",
-    "329e98f2a1c2eaad",
-    "dbc56cfd6da6331b",
-    "e5c2be9a89f09a30",
-    "93ad099eeccfdd7f",
-    "35690f6dd935ae8c",
-    "18f22785a5e0d216",
-    "0f55a956d69100d1",
-    "12ee2607d708348f",
-    "194353e48bc26aef",
     "54f2e353c83f0282",
+    "5016067119a59f01",
+    "bd362ada45065046",
+    "20f7fd06373b4fd4",
+    "a83544541c03ad43",
+    "01b457835e8674f5",
+    "963cc03b25cbd131",
+    "48ea4977c1ce11bf",
     "65ecf3dc4e094c9a",
-    "1920c699c010429d",
-    "e5ada2a47b84be2d",
-    "07c7b58f6595cde4",
-    "241b49bb0f6d956b",
-    "b6e64b11e0d430b3",
-    "244130a5493e71f9",
-    "31d74494456b4d4a",
-    "29257665e4ca05d9",
-    "6936dd5f064690e4",
-    "2124e8f5f2162114",
-    "d9d3a21ac4e590d2",
-    "5192896203eece86",
-    "bd787ab5345c7190",
-    "3b9870865aff3f23",
-    "4b789356149ab921",
-    "63bb45668cb8149e",
-    "3697cec9f94976a5",
-    "ad5550877e7eae6e",
-    "cfbb85f4505ccb41",
-    "40cdd5cab5a0c974",
-    "2d8134992875b71c",
-    "0e6a9df919939af0",
-    "01f251c7eb67155f",
-    "4819c611f2351266",
-    "7f70e382d9253885",
-    "a57bd5dd474c0d6e",
-    "66a48d540a27fc54",
-    "94d74a96a7b66c5e",
-    "78803cb562e0fe69",
-    "69ac96d5eabde856",
-    "80a1f700ec266371",
-    "497b34037a877b8a",
-    "a67f61ff84cd3224",
-    "52246875e46fa796",
-    "86b94ae09d931d5c",
-    "e2efa9d9db2abbed",
-    "8bdbaaa67979e828",
-    "289517d3bd4fd069",
-    "bfe3c79820243433",
-    "bc8bd028d4e04987",
-    "64efbd3eecb55d92",
-    "8dfc85278ae1b326",
-    "821d368048f8b5e0",
-    "37684fa61573e285",
-    "31207eec8d769c18",
-    "210df86b6ffe8081",
-    "5651010e3534f672",
-    "e5c468577d752b51",
-    "cb02f0a261d98035",
-    "66ae6157e449dd0a",
-    "c0cdc2fc51c74bdc",
-    "db8c1152d08a12a2",
-    "bafe4c34b562250a",
-    "443f2a19e4f4855d",
-    "1108a49aa689082f",
-    "f93a74ee4db2c33a",
-    "f8f855453b2d492b",
-    "b77f90e2c9ebdc40",
-    "9fb2f907c1a65d65",
-    "200ff9c5fb31b25d",
-    "d43713a73e07cd72",
-    "556e618f34236d23",
-    "7c86034c742d671f",
-    "7e65419101e6bf67",
-    "699003bedea11b78",
-    "103cee7f86574130",
-    "893a37391bd4ea8b",
-    "a113e7210e1dcf5b",
-    "a939e465017dae3a",
-    "c462483b1e926cfe",
-    "11e0938fb9bbdd94",
-    "3d69cd7f2e65e6f6",
-    "556d1a2022f73260",
-    "a7d53eade3b319f6",
-    "6d3bd1b0562a49d4",
-    "36c4c0d4d23fc83f",
-    "fb3bfebdc9215416",
-    "3ca97afd490d6f82",
-    "7dbb98d88ac61462",
-    "37783ecfd9a3d6be",
-    "091f2277a9110797",
-    "dc2688051cfbfc4c",
-    "4725bb2bfd2619bf",
-    "64d69adc3e03ff00",
-    "d7c5908b64df24cc",
-    "71da6259bf0a2c99",
-    "2f05185541f0dd9b",
-    "dfed9953938c02e6",
-    "97cef1e78146d5b3",
-    "1faeee637ba82e0d",
     "7a7c9b38cae00386",
-    "2b862bad54d11c8b",
-    "831a9311663718b1",
-    "65b5f3fd3e903660",
-    "b81337a6a4bf223c",
-    "fc42e49f0afc0b3c",
-    "9d460881ade28db2",
-    "61aa65deeeb2836c",
-    "079dca0344338b97",
-    "69e0b132ef83066d",
-    "bb524eb14067fea8",
-    "224e9c930de53ad7",
-    "ae260495fc66a697",
-    "1fb6dc355b71834d",
-    "fd9058c4d7d9874e",
-    "f6f366bb93625d9f",
-    "99dc582f330c6acf",
-    "35f3440de6bf7493",
-    "7a41df7ff0510eae",
-    "3692879bdfc61885",
-    "76b60a9906aa0ed1",
-    "f1bd0bfff7717dcc",
-    "a99a4191ce95c9a3",
+    "fffd4c5413ad75f2",
+    "03b4510922efca20",
     "e7970cc518daaa7c",
-    "c1924fba55e80e99",
-    "9c9eb1c303c2b7fd",
-    "ad52e91e7464a130",
+    "e3b7f470eb123db0",
+    "1faeee637ba82e0d",
+    "b6890cca3a3b8bd3",
+    "66a48d540a27fc54",
+    "b6e64b11e0d430b3",
+    "32702ea5b67d1cc0",
+    "13928de1af0e1d7a",
+    "0b1d6f72ba649b11",
+    "71da6259bf0a2c99",
+    "244bcdea956832ee",
+    "31d74494456b4d4a",
+    "414f6e4fd3be206d",
+    "ae260495fc66a697",
+    "35f3440de6bf7493",
+    "dd91e6774ee3b065",
+    "831a9311663718b1",
+    "200ff9c5fb31b25d",
+    "1fb6dc355b71834d",
+    "cfbb85f4505ccb41",
+    "821d368048f8b5e0",
+    "97cef1e78146d5b3",
+    "01f251c7eb67155f",
+    "e6e3b4b706789084",
+    "c9a3c637fbfbd6d8",
+    "244130a5493e71f9",
+    "05e2df52946af88b",
+    "40cdd5cab5a0c974",
+    "f3325b5bed4f5738",
+    "893a37391bd4ea8b",
+    "ccb48ac397883994",
+    "c5d0dad370474d9a",
+    "75be98ac8817a0c7",
+    "3ca97afd490d6f82",
+    "766b97158d57fbbf",
+    "78803cb562e0fe69",
+    "ed29d355ebc82e04",
+    "cb02f0a261d98035",
+    "906b97e256daf397",
     "f4d67bfba2bd5d1b",
-    "bec2bf23e1942d68"
+    "d28718d2f5819b55",
+    "bd787ab5345c7190",
+    "e2efa9d9db2abbed",
+    "337cfcc219b4fd0e",
+    "bb6b5f41024eb9e1",
+    "4819c611f2351266",
+    "3692879bdfc61885",
+    "556e618f34236d23",
+    "99dc582f330c6acf",
+    "4fd987f74729c644",
+    "80a1f700ec266371",
+    "adcf87852f4512de",
+    "6c861f0ef7603f33",
+    "bc8bd028d4e04987",
+    "dfed9953938c02e6",
+    "37684fa61573e285",
+    "ffede21da52fe035",
+    "555bc54637e31a2f",
+    "3436d900b4ed47e4",
+    "ccb143036847162a",
+    "5192896203eece86",
+    "5d13f3ad896d47a3",
+    "f63007e9aeb26947",
+    "31020f7f531219e5",
+    "060ab82be076aea9",
+    "69ac96d5eabde856",
+    "b77f90e2c9ebdc40",
+    "5cc6155dc80f64a4",
+    "2b4201de6e243574",
+    "a67f61ff84cd3224",
+    "b6002cc8256c5521",
+    "3697cec9f94976a5",
+    "d43713a73e07cd72",
+    "61aa65deeeb2836c",
+    "8d0b576230ee07ef",
+    "2d38feee2ebec4b8",
+    "12ee2607d708348f"
   ],
   "price_history": {
     "dj-1601-tt-linen": [
-      {
-        "date": "2026-07-03",
-        "price": 5250.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1972-rolex-datejust-ref-1601-blue-non-luminous-dial"
-      },
-      {
-        "date": "2026-07-03",
-        "price": 12650.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1981-rolex-ladies-datejust-18k-yg-ref-6917-lapis-stone-dial"
-      },
-      {
-        "date": "2026-07-03",
-        "price": 11500.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1989-rolex-ladies-datejust-18k-yg-ref-69178-lapis-stone-dial-w-box-accessories"
-      },
-      {
-        "date": "2026-07-03",
-        "price": 9850.0,
-        "source": "Tropical Watch",
-        "url": "https://tropicalwatch.com/watches/1989-rolex-datejust-16018-white-roman-numeral-dial/g3hq"
-      },
-      {
-        "date": "2026-07-03",
-        "price": 6950.0,
-        "source": "Wanna Buy A Watch?",
-        "url": "https://wannabuyawatch.com/product/rolex-datejust-ref-16013-ss-14k-yg-blue-dial-circa-1981/"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 149.0,
-        "source": "Oldtimer",
-        "url": "https://oldtimer.watch/products/1987-seiko-mini-black-dial-jubilee-prez"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 289.0,
-        "source": "Oldtimer",
-        "url": "https://oldtimer.watch/products/1995-seiko-golden-buckley-dial-jubilee-prez"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 329.0,
-        "source": "Oldtimer",
-        "url": "https://oldtimer.watch/products/1994-seiko-black-dial-steel-jubilee-prez"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 259.0,
-        "source": "Oldtimer",
-        "url": "https://oldtimer.watch/products/1993-seiko-silver-two-toned-jubilee-prez"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 329.0,
-        "source": "Oldtimer",
-        "url": "https://oldtimer.watch/products/1991-seiko-sq-two-toned-sunray-blue-jubilee-prez"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 329.0,
-        "source": "Oldtimer",
-        "url": "https://oldtimer.watch/products/1988-seiko-sq-blue-sunray-jubilee-prez"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 329.0,
-        "source": "Oldtimer",
-        "url": "https://oldtimer.watch/products/1988-seiko-sq-gilt-jubilee-prez-1"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 3500.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1980s-rolex-jubilee-bracelet-two-tone"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 9000.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1978-rolex-datejust-16013-two-tone-white-boiler-gauge-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 7750.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1986-rolex-datejust-16013-two-tone-white-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 9500.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1988-rolex-datejust-16233-two-tone-blue-diamond-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 5500.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1970-rolex-datejust-1601-3-two-tone-champagne-stick-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 6000.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1974-rolex-datejust-1601-two-tone-champagne-stick-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 5150.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1973-rolex-datejust-1601-two-tone-champagne-stick-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 7750.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1991-rolex-datejust-16233-two-tone-black-sunburst-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 6650.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1987-rolex-oysterquartz-datejust-17013-two-tone-champagne-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 8250.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1981-rolex-datejust-16013-two-tone-houndstooth-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 5200.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1973-rolex-datejust-1601-two-tone-champagne-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 5350.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1971-rolex-datejust-1601-two-tone-champagne-linen-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 5350.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1971-rolex-datejust-1601-two-tone-champagne-stick-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 5350.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1968-rolex-datejust-1601-stainless-steel-18k-yellow-gold-silver-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 5650.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1975-rolex-datejust-1601-18k-white-gold-silver-wide-boy-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 6800.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1991-rolex-datejust-69173-two-tone-champagne-arabic-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 6650.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/2001-rolex-datejust-36-16203-two-tone-silver-roman-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 9500.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1991-rolex-datejust-36-16220-stainless-steel-silver-linen-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 14000.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1980s-rolex-jubilee-bracelet-8386-18k-yellow-gold-20mm-49-end-links"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 10550.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/1987-rolex-16013-18k-st-datejust-with-jubilee-bracelet-tiffany-co-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 5350.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/1991-rolex-18k-st-datejust-computer-dial-jubilee-bracelet-rolex-service-card"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 4960.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/1983-rolex-16014-datejust-silver-linen-dial-w-creamy-lume-markers-and-hands"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 3450.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/1970-rolex-1601-datejust-silver-stick-pan-pie-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 4250.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/1975-rolex-1601-datejust-silver-linen-dial-beautiful-creamy-hands-lume-plots-all-intact-w-jubilee-bracelet"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 3650.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/1969-rolex-1601-datejust-silver-stick-dial-18k-fluted-bezel-folded-jubilee-bracelet"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 4850.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/1978-rolex-36mm-datejust-model-16014-gray-linen-swiss-only-dial-jubilee-bracelet"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 4350.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/1973-rolex-datejust-1601-blue-pie-pan-dial-18k-fluted-bezel-folded-jubilee-bracelet-ebay-guarantee-card"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 6250.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/1971-rolex-datejust-1601-blue-dial-creamy-tritium-markers-jubilee-bracelet"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 4950.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1972-rolex-datejust-ref-1601-silver-wide-boy-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 4650.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1971-rolex-two-tone-datejust-ref-1601-non-luminous-champagne-wide-boy-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 4750.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1967-rolex-datejust-ref-1601-brushed-silver-doorstop-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 7850.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/unpolished-1991-rolex-two-tone-oysterquartz-datejust-ref-17013-champagne-tropical-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 40500.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1980-rolex-datejust-18k-yg-ref-16018-onyx-stone-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 21500.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/unpolished-1979-rolex-datejust-18k-yg-ref-16018-blue-tropical-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 4650.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1973-rolex-datejust-ref-1601-silver-sigma-dial-3"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 4750.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1987-rolex-datejust-ref-16014-silver-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 4750.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1968-rolex-two-tone-datejust-ref-1601-grey-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 4850.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1974-rolex-two-tone-datejust-ref-1601-champagne-wide-boy-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 4850.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1970-rolex-datejust-ref-1601-non-luminous-silver-linen-dial-3"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 7950.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1990-rolex-ladies-two-tone-datejust-ref-69173-silver-tiffany-co-diamond-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 4650.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1971-rolex-two-tone-datejust-ref-1601-champagne-linen-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 7200.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1995-rolex-datejust-ref-16233"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 60000.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1967-rolex-datejust-18k-yg-ref-1602-onyx-stone-dial-w-rare-mesh-bracelet"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 4050.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1975-rolex-two-tone-datejust-ref-1601-silver-sigma-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 4250.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1974-rolex-datejust-ref-1601-silver-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 27500.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1972-rolex-datejust-18k-rg-ref-1601"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 16500.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1976-rolex-ladies-datejust-18k-yg-ref-6917-lapis-stone-dial"
-      },
-      {
-        "date": "2026-07-04",
-        "price": 4650.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1973-rolex-two-tone-datejust-ref-1601-silver-sigma-dial"
-      },
       {
         "date": "2026-07-04",
         "price": 4500.0,
@@ -3287,201 +2927,369 @@
         "price": 6750.0,
         "source": "Wanna Buy A Watch?",
         "url": "https://wannabuyawatch.com/product/rolex-datejust-ref-16013-ss-18k-yg-taupe-dial-circa-1986/"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 149.0,
+        "source": "Oldtimer",
+        "url": "https://oldtimer.watch/products/1987-seiko-mini-black-dial-jubilee-prez"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 289.0,
+        "source": "Oldtimer",
+        "url": "https://oldtimer.watch/products/1995-seiko-golden-buckley-dial-jubilee-prez"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 329.0,
+        "source": "Oldtimer",
+        "url": "https://oldtimer.watch/products/1994-seiko-black-dial-steel-jubilee-prez"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 259.0,
+        "source": "Oldtimer",
+        "url": "https://oldtimer.watch/products/1993-seiko-silver-two-toned-jubilee-prez"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 329.0,
+        "source": "Oldtimer",
+        "url": "https://oldtimer.watch/products/1991-seiko-sq-two-toned-sunray-blue-jubilee-prez"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 329.0,
+        "source": "Oldtimer",
+        "url": "https://oldtimer.watch/products/1988-seiko-sq-blue-sunray-jubilee-prez"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 329.0,
+        "source": "Oldtimer",
+        "url": "https://oldtimer.watch/products/1988-seiko-sq-gilt-jubilee-prez-1"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 3500.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1980s-rolex-jubilee-bracelet-two-tone"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 9000.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1978-rolex-datejust-16013-two-tone-white-boiler-gauge-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 7750.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1986-rolex-datejust-16013-two-tone-white-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 9500.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1988-rolex-datejust-16233-two-tone-blue-diamond-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 5500.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1970-rolex-datejust-1601-3-two-tone-champagne-stick-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 6000.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1974-rolex-datejust-1601-two-tone-champagne-stick-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 5150.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1973-rolex-datejust-1601-two-tone-champagne-stick-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 7750.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1991-rolex-datejust-16233-two-tone-black-sunburst-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 6650.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1987-rolex-oysterquartz-datejust-17013-two-tone-champagne-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 8250.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1981-rolex-datejust-16013-two-tone-houndstooth-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 5200.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1973-rolex-datejust-1601-two-tone-champagne-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 5350.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1971-rolex-datejust-1601-two-tone-champagne-linen-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 5350.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1971-rolex-datejust-1601-two-tone-champagne-stick-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 5350.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1968-rolex-datejust-1601-stainless-steel-18k-yellow-gold-silver-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 5650.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1975-rolex-datejust-1601-18k-white-gold-silver-wide-boy-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 6800.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1991-rolex-datejust-69173-two-tone-champagne-arabic-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 6650.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/2001-rolex-datejust-36-16203-two-tone-silver-roman-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 9500.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1991-rolex-datejust-36-16220-stainless-steel-silver-linen-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 10550.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1987-rolex-16013-18k-st-datejust-with-jubilee-bracelet-tiffany-co-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 5350.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1991-rolex-18k-st-datejust-computer-dial-jubilee-bracelet-rolex-service-card"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4960.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1983-rolex-16014-datejust-silver-linen-dial-w-creamy-lume-markers-and-hands"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 3450.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1970-rolex-1601-datejust-silver-stick-pan-pie-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4250.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1975-rolex-1601-datejust-silver-linen-dial-beautiful-creamy-hands-lume-plots-all-intact-w-jubilee-bracelet"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 3650.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1969-rolex-1601-datejust-silver-stick-dial-18k-fluted-bezel-folded-jubilee-bracelet"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4850.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1978-rolex-36mm-datejust-model-16014-gray-linen-swiss-only-dial-jubilee-bracelet"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4350.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1973-rolex-datejust-1601-blue-pie-pan-dial-18k-fluted-bezel-folded-jubilee-bracelet-ebay-guarantee-card"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 6250.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1971-rolex-datejust-1601-blue-dial-creamy-tritium-markers-jubilee-bracelet"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4575.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1979-rolex-datejust-ref-16014-silver-dial-w-vivid-patina"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4950.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1972-rolex-datejust-ref-1601-silver-wide-boy-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4650.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1971-rolex-two-tone-datejust-ref-1601-non-luminous-champagne-wide-boy-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4750.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1967-rolex-datejust-ref-1601-brushed-silver-doorstop-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 7850.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/unpolished-1991-rolex-two-tone-oysterquartz-datejust-ref-17013-champagne-tropical-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 40500.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1980-rolex-datejust-18k-yg-ref-16018-onyx-stone-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 21500.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/unpolished-1979-rolex-datejust-18k-yg-ref-16018-blue-tropical-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4650.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1973-rolex-datejust-ref-1601-silver-sigma-dial-3"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4750.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1987-rolex-datejust-ref-16014-silver-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4750.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1968-rolex-two-tone-datejust-ref-1601-grey-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4850.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1974-rolex-two-tone-datejust-ref-1601-champagne-wide-boy-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4850.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1970-rolex-datejust-ref-1601-non-luminous-silver-linen-dial-3"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 7950.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1990-rolex-ladies-two-tone-datejust-ref-69173-silver-tiffany-co-diamond-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4650.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1971-rolex-two-tone-datejust-ref-1601-champagne-linen-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 7200.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1995-rolex-datejust-ref-16233"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 60000.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1967-rolex-datejust-18k-yg-ref-1602-onyx-stone-dial-w-rare-mesh-bracelet"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4050.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1975-rolex-two-tone-datejust-ref-1601-silver-sigma-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4250.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1974-rolex-datejust-ref-1601-silver-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 27500.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1972-rolex-datejust-18k-rg-ref-1601"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 16500.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1976-rolex-ladies-datejust-18k-yg-ref-6917-lapis-stone-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4650.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1973-rolex-two-tone-datejust-ref-1601-silver-sigma-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4500.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1977-rolex-datejust-ref-1601-silver-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 5650.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1986-rolex-datejust-ref-16014-silver-dial-w-box-papers"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 5250.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1972-rolex-datejust-ref-1601-blue-non-luminous-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 6350.0,
+        "source": "Tropical Watch",
+        "url": "https://tropicalwatch.com/watches/1990-rolex-two-tone-datejust-16233-beige-roman-numeral-dial/oyyt"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 6750.0,
+        "source": "Wanna Buy A Watch?",
+        "url": "https://wannabuyawatch.com/product/rolex-datejust-ref-16013-ss-18k-yg-taupe-dial-circa-1986/"
       }
     ],
     "rolex-1500-tropical": [
-      {
-        "date": "2026-06-25",
-        "price": 12850.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/2005-rolex-16610-submariner-green-bezel-with-rolex-service-card"
-      },
-      {
-        "date": "2026-06-25",
-        "price": 12950.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/2024-rolex-no-date-41mm-submariner-124060-box-hangtag-warranty-card"
-      },
-      {
-        "date": "2026-06-25",
-        "price": 9850.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/2004-rolex-40mm-submariner-14060m-box-papers-chronotag-wallet-booklets"
-      },
-      {
-        "date": "2026-06-25",
-        "price": 11950.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/2023-rolex-41mm-datejust-126334-black-dial-fluted-bezel-oyster-bracelet-w-card"
-      },
-      {
-        "date": "2026-06-25",
-        "price": 16950.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/1968-rolex-gmt-master-1675-mk-1-dial-long-e-with-fuchsia-bezel-insert"
-      },
-      {
-        "date": "2026-06-25",
-        "price": 13750.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/1987-rolex-16760-fat-lady-gmt-master-ii-tropical-marbled-tritium-dial-w-box-booklets"
-      },
-      {
-        "date": "2026-06-25",
-        "price": 3850.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/1993-rolex-oyster-perpetual-14010-air-king-precision"
-      },
-      {
-        "date": "2026-06-25",
-        "price": 14850.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/1967-rolex-5513-meters-1st-dial-creamy-lume-hands-service-papers"
-      },
-      {
-        "date": "2026-06-25",
-        "price": 3750.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/1971-rolex-date-model-1500-with-gray-dial-gilt-hands-gilt-baton-markers-on-strap"
-      },
-      {
-        "date": "2026-06-25",
-        "price": 62950.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/1975-rolex-oyster-chronograph-6265-silver-dial-black-sub-dials-box-papers"
-      },
-      {
-        "date": "2026-06-25",
-        "price": 13750.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/1973-rolex-5513-submariner-creamy-lume-hands-all-original-box-booklets-papers"
-      },
-      {
-        "date": "2026-06-25",
-        "price": 10550.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/1981-rolex-oyster-perpetual-dominos-air-king-model-5500"
-      },
-      {
-        "date": "2026-06-25",
-        "price": 11000.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/2000-rolex-16710-gmt-master-ii-with-faded-pepsi-insert"
-      },
-      {
-        "date": "2026-06-25",
-        "price": 11650.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/2023-rolex-124060-submariner-no-date-box-card-wallet-hangtags"
-      },
-      {
-        "date": "2026-06-25",
-        "price": 1950.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1970s-hamilton-automatic-ref-815005-3-silver-dial-w-blue-accents"
-      },
-      {
-        "date": "2026-06-25",
-        "price": 3250.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1967-rolex-oyster-perpetual-date-ref-1500-silver-dial-1"
-      },
-      {
-        "date": "2026-06-25",
-        "price": 24500.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/unpolished-1985-rolex-oysterquartz-day-date-18k-yg-ref-19018-black-dial"
-      },
-      {
-        "date": "2026-06-25",
-        "price": 8950.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1989-rolex-sea-dweller-ref-16600"
-      },
-      {
-        "date": "2026-06-25",
-        "price": 9250.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/unpolished-1996-rolex-sea-dweller-ref-16600"
-      },
-      {
-        "date": "2026-06-25",
-        "price": 3850.0,
-        "source": "Tropical Watch",
-        "url": "https://tropicalwatch.com/watches/1965-rolex-date-1500-silver-dial/zo7t"
-      },
-      {
-        "date": "2026-06-26",
-        "price": 3330.0,
-        "source": "Oldtimer",
-        "url": "https://oldtimer.watch/products/special-listing-for-r-pena-1"
-      },
-      {
-        "date": "2026-06-26",
-        "price": 5850.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1996-rolex-oyster-perpetual-date-15200-stainless-steel-black-dial"
-      },
-      {
-        "date": "2026-06-26",
-        "price": 8000.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1990-rolex-datejust-16234-stainless-steel-white-gold-bezel-black-diamond-dial"
-      },
-      {
-        "date": "2026-06-26",
-        "price": 10850.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/2002-unworn-rolex-16600-sea-dweller-full-set"
-      },
-      {
-        "date": "2026-06-26",
-        "price": 9150.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/rolex-submariner-5513-w-service-case-creamy-tritium-hands-faded-bezel-insert"
-      },
-      {
-        "date": "2026-06-26",
-        "price": 12950.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/1967-rolex-submariner-5513-meters-1st-dial-creamy-hands-lume-plots"
-      },
-      {
-        "date": "2026-06-26",
-        "price": 12850.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/2009-rolex-faded-green-bezel-submariner-16610t"
-      },
-      {
-        "date": "2026-06-26",
-        "price": 13250.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/2011-rolex-14060m-submariner-service-card-and-wattanty-card"
-      },
-      {
-        "date": "2026-06-26",
-        "price": 22550.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/1994-18k-st-rolex-zenth-daytona-16523-black-dial-box-papers-hangtags-booklet"
-      },
-      {
-        "date": "2026-06-26",
-        "price": 27550.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/1991-rolex-tiffany-co-explorer-14270-box-papers-hangtags-service-papers"
-      },
-      {
-        "date": "2026-06-26",
-        "price": 11950.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/2023-rolex-41mm-submariner-no-date-box-booklets-card-wallet-hangtags"
-      },
-      {
-        "date": "2026-06-26",
-        "price": 12850.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/2005-rolex-16610-submariner-green-bezel-with-rolex-service-card"
-      },
       {
         "date": "2026-06-26",
         "price": 12950.0,
@@ -6289,6 +6097,198 @@
         "price": 5850.0,
         "source": "Wanna Buy A Watch?",
         "url": "https://wannabuyawatch.com/product/rolex-oyster-perpetual-date-ref-1500-gilt-dial-circa-1970/"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 3330.0,
+        "source": "Oldtimer",
+        "url": "https://oldtimer.watch/products/special-listing-for-r-pena-1"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 10500.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1987-rolex-oyster-perpetual-date-15000-stainless-steel-silver-tiffany-co-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 5850.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1996-rolex-oyster-perpetual-date-15200-stainless-steel-black-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 8000.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1990-rolex-datejust-16234-stainless-steel-white-gold-bezel-black-diamond-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 10850.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/2002-unworn-rolex-16600-sea-dweller-full-set"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 9150.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/rolex-submariner-5513-w-service-case-creamy-tritium-hands-faded-bezel-insert"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 12950.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1967-rolex-submariner-5513-meters-1st-dial-creamy-hands-lume-plots"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 12850.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/2009-rolex-faded-green-bezel-submariner-16610t"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 13250.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/2011-rolex-14060m-submariner-service-card-and-wattanty-card"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 22550.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1994-18k-st-rolex-zenth-daytona-16523-black-dial-box-papers-hangtags-booklet"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 27550.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1991-rolex-tiffany-co-explorer-14270-box-papers-hangtags-service-papers"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 11950.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/2023-rolex-41mm-submariner-no-date-box-booklets-card-wallet-hangtags"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 12850.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/2005-rolex-16610-submariner-green-bezel-with-rolex-service-card"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 12950.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/2024-rolex-no-date-41mm-submariner-124060-box-hangtag-warranty-card"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 9850.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/2004-rolex-40mm-submariner-14060m-box-papers-chronotag-wallet-booklets"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 11950.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/2023-rolex-41mm-datejust-126334-black-dial-fluted-bezel-oyster-bracelet-w-card"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 16950.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1968-rolex-gmt-master-1675-mk-1-dial-long-e-with-fuchsia-bezel-insert"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 13750.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1987-rolex-16760-fat-lady-gmt-master-ii-tropical-marbled-tritium-dial-w-box-booklets"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 3850.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1993-rolex-oyster-perpetual-14010-air-king-precision"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 14850.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1967-rolex-5513-meters-1st-dial-creamy-lume-hands-service-papers"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 3750.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1971-rolex-date-model-1500-with-gray-dial-gilt-hands-gilt-baton-markers-on-strap"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 62950.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1975-rolex-oyster-chronograph-6265-silver-dial-black-sub-dials-box-papers"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 13750.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1973-rolex-5513-submariner-creamy-lume-hands-all-original-box-booklets-papers"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 10550.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1981-rolex-oyster-perpetual-dominos-air-king-model-5500"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 11000.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/2000-rolex-16710-gmt-master-ii-with-faded-pepsi-insert"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 11650.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/2023-rolex-124060-submariner-no-date-box-card-wallet-hangtags"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 1950.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1970s-hamilton-automatic-ref-815005-3-silver-dial-w-blue-accents"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 3250.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1967-rolex-oyster-perpetual-date-ref-1500-silver-dial-1"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 24500.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/unpolished-1985-rolex-oysterquartz-day-date-18k-yg-ref-19018-black-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 8950.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1989-rolex-sea-dweller-ref-16600"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 5250.0,
+        "source": "Tropical Watch",
+        "url": "https://tropicalwatch.com/watches/1971-rolex-date-1500-grey-dial/t5uq"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 5850.0,
+        "source": "Wanna Buy A Watch?",
+        "url": "https://wannabuyawatch.com/product/rolex-oyster-perpetual-date-ref-1500-gilt-dial-circa-1970/"
       }
     ],
     "dj-16030": [
@@ -7626,6 +7626,42 @@
       },
       {
         "date": "2026-07-11",
+        "price": 4850.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1986-rolex-datejust-ref-16030-silver-dial-w-rolex-service-papers"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4589.0,
+        "source": "Oldtimer",
+        "url": "https://oldtimer.watch/products/1979-rolex-datejust-16030-serviced-1"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 7650.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1986-rolex-datejust-16030-stainless-steel-grey-tapestry-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4650.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1982-rolex-st-st-datejust-steel-fluted-bezel-model-16030-silver-dial-creamy-lume-plots-with-gold-hands-hour-markers"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4350.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1984-rolex-datejust-ref-16030-silver-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 6000.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1987-rolex-datejust-ref-16030-white-buckley-dial"
+      },
+      {
+        "date": "2026-07-12",
         "price": 4850.0,
         "source": "Craft + Tailored",
         "url": "https://craftandtailored.com/products/1986-rolex-datejust-ref-16030-silver-dial-w-rolex-service-papers"
@@ -10211,6 +10247,78 @@
         "price": 14500.0,
         "source": "Craft + Tailored",
         "url": "https://craftandtailored.com/products/2025-rolex-oyster-perpetual-41-ref-134300-pistachio-dial-w-full-set"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 2959.0,
+        "source": "Oldtimer",
+        "url": "https://oldtimer.watch/products/1956-rolex-oyster-perpetual-6564"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4750.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1969-rolex-oyster-perpetual-1002-two-tone-mocha-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 5000.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1983-rolex-oyster-perpetual-1024-gold-plated-double-stamp-hallmark-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 6500.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1963-rolex-oyster-perpetual-5552-stainless-steel-silver-white-bullseye-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 6250.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1996-rolex-air-king-14000-stainless-steel-silver-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4550.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1960-rolex-zephyr-oyster-perpetual-1008-two-tone-crosshair-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 9850.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/2025-rolex-124300-oyster-perpetual-green-dial-full-set"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 11750.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/2023-rolex-31mm-oyster-perpetual-277200-turquoise-blue-celebration-motif-31mm-full-set"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 3550.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1987-rolex-oyster-perpetual-air-king-5500-blue-dial-smooth-bezel"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4750.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1987-rolex-oyster-perpetual-air-king-precision-silver-stick-dial-box-tags-papers"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 3850.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1968-rolex-oyster-perpetual-36mm-case-ref-1018-silver-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 14500.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/2025-rolex-oyster-perpetual-41-ref-134300-pistachio-dial-w-full-set"
       }
     ],
     "precision-6427": [
@@ -12493,202 +12601,76 @@
         "price": 3450.0,
         "source": "Craft + Tailored",
         "url": "https://craftandtailored.com/products/1975-rolex-oyster-precision-ref-6427-silver-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 2850.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1966-tudor-oyster-7984-stainless-steel-silver-sunburst-rose-stamp-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 5850.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1957-rolex-oyster-super-precision-6480-stainless-steel-white-patina-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 5000.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1978-rolex-air-king-5500-stainless-steel-blue-sunburst-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 3850.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1961-rolex-oyster-royal-6427-stainless-steel-engine-turned-bezel"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 20250.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1981-rolex-16808-18k-submariner-blue-dial-newer-tritium-hands"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 46550.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1976-18k-rolex-1680-submariner-yellow-gold-with-beautiful-brown-color-changed-nipple-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 13250.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/2023-rolex-41mm-datejust-126334-blue-dial-silver-roman-markers-jubilee-band-box-card-hangtags"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 10550.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1993-rolex-gmt-master-16700-pepsi-insert-tritium-hands-lume-plots"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 3350.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1966-rolex-oyster-precision-ref-6427-silver-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 2850.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1970-rolex-oysterdate-precision-ref-6694-silver-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 3450.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1975-rolex-oyster-precision-ref-6427-silver-dial"
       }
     ],
     "date-1503": [
       {
-        "date": "2026-06-27",
-        "price": 11500.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/2023-rolex-oyster-perpetual-36-ref-126000-pink-dial-w-full-set"
-      },
-      {
-        "date": "2026-06-27",
-        "price": 6500.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1984-rolex-oysterquartz-datejust-ref-17000-buckley-dial"
-      },
-      {
-        "date": "2026-06-27",
-        "price": 43500.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1995-rolex-day-date-18k-wg-ref-18239-sapphire-teardrop-dial"
-      },
-      {
-        "date": "2026-06-27",
-        "price": 23500.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/2020-rolex-oyster-perpetual-41-ref-124300-tiffany-blue-dial-w-rolex-warranty-card-hang-tags"
-      },
-      {
-        "date": "2026-06-27",
-        "price": 19000.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/unpolished-1989-rolex-day-date-18k-wg-ref-18239-silver-dial"
-      },
-      {
-        "date": "2026-06-27",
-        "price": 21500.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1979-rolex-oysterquartz-day-date-18k-wg-ref-19019-silver-jubilee-dial-w-factory-diamond-markers"
-      },
-      {
-        "date": "2026-06-27",
-        "price": 36500.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1995-rolex-day-date-18k-yg-ref-18378-factory-ruby-diamond-dial-w-factory-ruby-diamond-bezel"
-      },
-      {
-        "date": "2026-06-27",
-        "price": 5250.0,
-        "source": "Wanna Buy A Watch?",
-        "url": "https://wannabuyawatch.com/product/rolex-lady-oyster-perpetual-date-tiffany-co-ref-6916-circa-1973/"
-      },
-      {
-        "date": "2026-06-28",
-        "price": 6200.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1991-rolex-oyster-perpetual-date-15233-two-tone-white-buckley-dial"
-      },
-      {
-        "date": "2026-06-28",
-        "price": 13500.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1981-rolex-oyster-perpetual-date-15037-14k-yellow-gold-champagne-dial"
-      },
-      {
-        "date": "2026-06-28",
-        "price": 6000.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1997-rolex-oyster-perpetual-date-15200-stainless-steel-salmon-dial"
-      },
-      {
-        "date": "2026-06-28",
-        "price": 16500.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1979-rolex-oyster-perpetual-date-15037-14k-yellow-gold-king-abdulaziz-university-dial"
-      },
-      {
-        "date": "2026-06-28",
-        "price": 5500.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1968-rolex-oyster-perpetual-date-1505-two-tone-champagne-ramp-indices"
-      },
-      {
-        "date": "2026-06-28",
-        "price": 8000.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1979-rolex-oyster-perpetual-date-1503-14k-yellow-gold-champagne-dial"
-      },
-      {
-        "date": "2026-06-28",
-        "price": 17000.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1986-rolex-oyster-perpetual-date-15037-14k-yellow-gold-purple-diamond-dial"
-      },
-      {
-        "date": "2026-06-28",
-        "price": 19000.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1986-rolex-oyster-perpetual-date-15037-14k-yellow-gold-dark-blue-diamond-dial"
-      },
-      {
-        "date": "2026-06-28",
-        "price": 3850.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1970-rolex-lady-datejust-6516-stainless-steel-grey-sunburst-dial"
-      },
-      {
-        "date": "2026-06-28",
-        "price": 4000.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1974-rolex-oysterdate-6694-stainless-steel-champagne-dial"
-      },
-      {
-        "date": "2026-06-28",
-        "price": 5250.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1969-rolex-oyster-perpetual-date-1501-stainless-steel-dark-blue-dial"
-      },
-      {
-        "date": "2026-06-28",
-        "price": 10500.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1985-oyster-perpetual-date-15038-18k-yellow-gold-blue-sunburst-dial"
-      },
-      {
-        "date": "2026-06-28",
-        "price": 23550.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/2001-rolex-118205-18k-yg-day-date-with-box-papers-booklet"
-      },
-      {
-        "date": "2026-06-28",
-        "price": 9150.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/2002-rolex-17014-blue-dial-oyster-quartz-datejust-blue-dial-w-box-wallet-calendar-and-papers"
-      },
-      {
-        "date": "2026-06-28",
-        "price": 12350.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/2020-rolex-126331-18k-rose-gold-stainless-chocolate-dial-datejust-box-card-booklet-wallet-hangtags"
-      },
-      {
-        "date": "2026-06-28",
-        "price": 4950.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/1984-rolex-datejust-silver-dial-with-creamy-lume-plots"
-      },
-      {
-        "date": "2026-06-28",
-        "price": 12250.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/2020-rolex-126333-18k-st-oyster-bracelet-datejust-41mm-white-dial-w-box-card-booklets-hangtags"
-      },
-      {
-        "date": "2026-06-28",
-        "price": 13550.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/2021-rolex-41mm-wimbledon-st-st-datejust-on-jubilee-box-booklets-card-hangtags"
-      },
-      {
-        "date": "2026-06-28",
-        "price": 13950.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/2023-rolex-st-st-126334-wimbledon-41mm-datejust-jubilee-bracelet-full-set"
-      },
-      {
-        "date": "2026-06-28",
-        "price": 5500.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/2015-rolex-116234-datejust-silver-dial-fluted-bezel-oyster-bracelet-w-card"
-      },
-      {
-        "date": "2026-06-28",
-        "price": 5650.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/rolex-16264-blue-dial-turnograph-datejust"
-      },
-      {
-        "date": "2026-06-28",
-        "price": 1450.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1973-tudor-princess-oysterdate-ref-7637-4-silver-dial"
-      },
-      {
-        "date": "2026-06-28",
-        "price": 24750.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1973-rolex-day-date-18k-yg-ref-1803-champagne-wide-boy-sigma-dial-w-box-papers"
-      },
-      {
-        "date": "2026-06-28",
-        "price": 2850.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1970-tudor-prince-oysterdate-jumbo-ref-7024-0-silver-dial"
-      },
-      {
         "date": "2026-06-28",
         "price": 5150.0,
         "source": "Craft + Tailored",
@@ -15492,6 +15474,198 @@
       },
       {
         "date": "2026-07-11",
+        "price": 19000.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/unpolished-1989-rolex-day-date-18k-wg-ref-18239-silver-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 8650.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1976-rolex-oyster-perpetual-date-1503-14k-yellow-gold-champagne-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 8500.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1978-rolex-oyster-perpetual-date-1501-14k-yellow-gold-champagne-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 6000.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1999-rolex-oyster-perpetual-date-15200-stainless-steel-blue-sunburst-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 6200.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1986-rolex-oyster-perpetual-date-15053-two-tone-champagne-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 6850.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1991-rolex-oyster-perpetual-date-15233-two-tone-white-buckley-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 13500.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1981-rolex-oyster-perpetual-date-15037-14k-yellow-gold-champagne-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 6000.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1997-rolex-oyster-perpetual-date-15200-stainless-steel-salmon-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 16500.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1979-rolex-oyster-perpetual-date-15037-14k-yellow-gold-king-abdulaziz-university-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 5500.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1968-rolex-oyster-perpetual-date-1505-two-tone-champagne-ramp-indices"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 8000.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1979-rolex-oyster-perpetual-date-1503-14k-yellow-gold-champagne-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 17000.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1986-rolex-oyster-perpetual-date-15037-14k-yellow-gold-purple-diamond-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 19000.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1986-rolex-oyster-perpetual-date-15037-14k-yellow-gold-dark-blue-diamond-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 23550.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/2001-rolex-118205-18k-yg-day-date-with-box-papers-booklet"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 9150.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/2002-rolex-17014-blue-dial-oyster-quartz-datejust-blue-dial-w-box-wallet-calendar-and-papers"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 12350.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/2020-rolex-126331-18k-rose-gold-stainless-chocolate-dial-datejust-box-card-booklet-wallet-hangtags"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4950.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1984-rolex-datejust-silver-dial-with-creamy-lume-plots"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 12250.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/2020-rolex-126333-18k-st-oyster-bracelet-datejust-41mm-white-dial-w-box-card-booklets-hangtags"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 13550.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/2021-rolex-41mm-wimbledon-st-st-datejust-on-jubilee-box-booklets-card-hangtags"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 13950.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/2023-rolex-st-st-126334-wimbledon-41mm-datejust-jubilee-bracelet-full-set"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 5500.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/2015-rolex-116234-datejust-silver-dial-fluted-bezel-oyster-bracelet-w-card"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 5650.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/rolex-16264-blue-dial-turnograph-datejust"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 1450.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1973-tudor-princess-oysterdate-ref-7637-4-silver-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 24750.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1973-rolex-day-date-18k-yg-ref-1803-champagne-wide-boy-sigma-dial-w-box-papers"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 2850.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1970-tudor-prince-oysterdate-jumbo-ref-7024-0-silver-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 5150.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1957-rolex-oyster-perpetual-18k-yg-ref-6567-champagne-occ-concentric-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 17500.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1976-rolex-oyster-perpetual-date-ref-1530"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 3150.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1968-tudor-oyster-prince-date-ref-7966-0-white-railroad-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 11500.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/2023-rolex-oyster-perpetual-36-ref-126000-pink-dial-w-full-set"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 6500.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1984-rolex-oysterquartz-datejust-ref-17000-buckley-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 43500.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1995-rolex-day-date-18k-wg-ref-18239-sapphire-teardrop-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 23500.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/2020-rolex-oyster-perpetual-41-ref-124300-tiffany-blue-dial-w-rolex-warranty-card-hang-tags"
+      },
+      {
+        "date": "2026-07-12",
         "price": 19000.0,
         "source": "Craft + Tailored",
         "url": "https://craftandtailored.com/products/unpolished-1989-rolex-day-date-18k-wg-ref-18239-silver-dial"
@@ -18047,6 +18221,84 @@
         "price": 11250.0,
         "source": "HQ Milton",
         "url": "https://hqmilton.com/products/2005-rolex-16710-gmt-master-ii-black-red-bezel-insert"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 42500.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1976-rolex-cellini-4055-18k-yellow-gold-walnut-burl-wood-dial-diamond-bezel"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 10500.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1970s-rolex-jubilee-bracelet-14k-yellow-gold"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 14000.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1970s-rolex-president-bracelet-18k-yellow-gold"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 11500.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1978-rolex-day-date-1803-18k-yellow-gold-champagne-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 13500.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1984-rolex-day-date-18038-18k-yellow-gold-champagne-linen-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 22500.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1986-rolex-day-date-18038-18k-yellow-gold-champagne-diamond-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 16500.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1979-rolex-datejust-president-69178-18k-yellow-gold-walnut-burl-wood-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 27500.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1969-rolex-day-date-1803-18k-yellow-gold-salmon-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 55000.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/rolex-day-date-36-18038-18k-yellow-gold-bloodstone-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 9850.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/2019-rolex-114060-40mm-submariner-box-card-wallet-hangtag-chrono-tag"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 11950.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/unworn-2021-rolex-submariner-124060-full-set"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 52500.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/2020-rolex-daytona-116509-blue-dial-full-set-never-worn-with-stickers"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 11250.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/2005-rolex-16710-gmt-master-ii-black-red-bezel-insert"
       }
     ],
     "dj-1603-blue": [
@@ -19291,45 +19543,45 @@
         "price": 4850.0,
         "source": "Craft + Tailored",
         "url": "https://craftandtailored.com/products/1975-rolex-datejust-ref-1603-silver-sigma-dial-w-rolex-service-card"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 5890.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1971-rolex-datejust-1603-stainless-steel-black-bubbled-patina-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4850.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1969-rolex-datejust-1603-sigma-pie-pan-slate-dial-w-jubilee-bracelet"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4650.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1964-rolex-datejust-ref-1603-silver-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 6750.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1972-rolex-datejust-ref-1603-black-confetti-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4250.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1973-rolex-datejust-ref-1603-silver-linen-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4850.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1975-rolex-datejust-ref-1603-silver-sigma-dial-w-rolex-service-card"
       }
     ],
     "rolex-6238-predaytona": [
-      {
-        "date": "2026-06-10",
-        "price": 25500.0,
-        "source": "Danny's Vintage",
-        "url": "https://dannysvintagewatches.com/products/1999-rolex-daytona-zenith-16520-stainless-steel-black-dial"
-      },
-      {
-        "date": "2026-06-10",
-        "price": 18550.0,
-        "source": "HQ Milton",
-        "url": "https://hqmilton.com/products/2004-rolex-white-dial-daytona-116520-box-papers-booklets-hangtag"
-      },
-      {
-        "date": "2026-06-10",
-        "price": 26500.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1995-rolex-zenith-daytona-ref-16520-black-mk-iv-dial-w-box-papers"
-      },
-      {
-        "date": "2026-06-10",
-        "price": 3950.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/2000s-gevril-tribeca-chronograph-rco-style-dial"
-      },
-      {
-        "date": "2026-06-10",
-        "price": 5500.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/1994-tudor-big-block-chronograph-ref-79180-black-dial"
-      },
-      {
-        "date": "2026-06-10",
-        "price": 5500.0,
-        "source": "Craft + Tailored",
-        "url": "https://craftandtailored.com/products/2020s-gevril-tribeca-chronograph-rco-style-dial-w-box-papers"
-      },
       {
         "date": "2026-06-10",
         "price": 24000.0,
@@ -22233,6 +22485,102 @@
         "price": 97500.0,
         "source": "Craft + Tailored",
         "url": "https://craftandtailored.com/products/unpolished-1991-rolex-zenith-daytona-18k-yg-ref-16528-champagne-mk-iii-tiffany-co-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 26000.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1999-rolex-daytona-16520-stainless-steel-white-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 25500.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/2006-rolex-daytona-116520-stainless-steel-white-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 33000.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1993-rolex-daytona-16520-black-cream-patina-patrizzi-zenith-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 26500.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1997-rolex-daytona-16520-stainless-steel-black-with-cream-subdials"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 24500.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/2005-rolex-daytona-116520-stainless-steel-black-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 25000.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/2009-rolex-daytona-116520-stainless-steel-black-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 18550.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/2004-rolex-white-dial-daytona-116520-box-papers-booklets-hangtag"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 5950.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1992-tudor-big-block-chronograph-ref-79180-silver-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 10000.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1960s-heuer-carrera-12-2nd-execution-ref-2447d-silver-decimal-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 26500.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1995-rolex-zenith-daytona-ref-16520-black-mk-iv-dial-w-box-papers"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 3950.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/2000s-gevril-tribeca-chronograph-rco-style-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 5500.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1994-tudor-big-block-chronograph-ref-79180-black-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 5500.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/2020s-gevril-tribeca-chronograph-rco-style-dial-w-box-papers"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 24000.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1996-rolex-two-tone-zenith-daytona-ref-16523-champagne-mk-iv-dial-w-box-papers-original-sales-receipt"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 6500.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1995-tudor-big-block-chronograph-ref-79160-silver-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 97500.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/unpolished-1991-rolex-zenith-daytona-18k-yg-ref-16528-champagne-mk-iii-tiffany-co-dial"
       }
     ],
     "dj-1601-silver-black": [
@@ -22658,6 +23006,18 @@
       },
       {
         "date": "2026-07-11",
+        "price": 6500.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1970-rolex-datejust-ref-1601-black-confetti-dial-2"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 9250.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1978-rolex-16018-18k-datejust-black-diamond-dial-on-strap"
+      },
+      {
+        "date": "2026-07-12",
         "price": 6500.0,
         "source": "Craft + Tailored",
         "url": "https://craftandtailored.com/products/1970-rolex-datejust-ref-1601-black-confetti-dial-2"
@@ -23779,6 +24139,42 @@
         "price": 4950.0,
         "source": "Craft + Tailored",
         "url": "https://craftandtailored.com/products/1975-rolex-datejust-ref-1600-silver-sigma-dial-1"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 6500.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/1978-rolex-datejust-16003-two-tone-champagne-buckley-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 6250.0,
+        "source": "HQ Milton",
+        "url": "https://hqmilton.com/products/1982-rolex-16000-white-roman-buckley-dial-smooth-bezel-oyster-bracelet"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 6500.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1978-rolex-datejust-ref-16000-white-buckley-dial-w-pumpkin-patina"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 5000.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1968-rolex-datejust-ref-1600-silver-dial-w-rsc-japan-paperwork"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4850.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1975-rolex-datejust-ref-1600-silver-sigma-dial-2"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 4950.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1975-rolex-datejust-ref-1600-silver-sigma-dial-1"
       }
     ],
     "rolex-6062-steel": [
@@ -24309,6 +24705,24 @@
         "price": 68750.0,
         "source": "Craft + Tailored",
         "url": "https://craftandtailored.com/products/1955-rolex-oyster-precision-ref-6246-black-honeycomb-stelline-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 1075.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/mint-1950s-f-l-calendar-dress-watch-gold-plated-cal-as1380"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 3650.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1940s-movado-triple-calendar-gold-plated-ref-14783-w-breguet-numeral-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 68750.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1955-rolex-oyster-precision-ref-6246-black-honeycomb-stelline-dial"
       }
     ],
     "omega-seamaster-deville-linen": [
@@ -24707,6 +25121,18 @@
         "price": 7500.0,
         "source": "Craft + Tailored",
         "url": "https://craftandtailored.com/products/1964-omega-seamaster-de-ville-14k-yg-ref-kl-6610-w-cartier-cosigned-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 3000.0,
+        "source": "Danny's Vintage",
+        "url": "https://dannysvintagewatches.com/products/omega-seamaster-de-ville-165-020-stainless-steel-silver-sunburst-dial"
+      },
+      {
+        "date": "2026-07-12",
+        "price": 7500.0,
+        "source": "Craft + Tailored",
+        "url": "https://craftandtailored.com/products/1964-omega-seamaster-de-ville-14k-yg-ref-kl-6610-w-cartier-cosigned-dial"
       }
     ],
     "vc-jumphour": [
@@ -24856,6 +25282,12 @@
       },
       {
         "date": "2026-07-11",
+        "price": 92000.0,
+        "source": "Analog/Shift",
+        "url": "https://analogshift.com/products/vacheron-constantin-saltarello-jump-hour-as12424"
+      },
+      {
+        "date": "2026-07-12",
         "price": 92000.0,
         "source": "Analog/Shift",
         "url": "https://analogshift.com/products/vacheron-constantin-saltarello-jump-hour-as12424"
